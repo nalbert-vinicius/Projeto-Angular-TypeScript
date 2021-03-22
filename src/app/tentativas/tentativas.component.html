@@ -1,0 +1,8 @@
+<div class="d-flex flex-row-reverse">
+    <!--Property Binding
+    <img [src]="coracaoCheio">
+    <img [src]="coracaoCheio">
+    <img [src]="coracaoCheio">
+    -->
+    <img *ngFor="let i of coracoes" [src]="i.ExibeCoracao()">
+</div>

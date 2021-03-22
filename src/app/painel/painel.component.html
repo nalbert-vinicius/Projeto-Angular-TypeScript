@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-sm-6">
+                <!--Enviando value do component pai para o filho-->
+                <app-progresso [progresso]="progresso"></app-progresso>
+            </div>
+            <div class="col-sm-6">
+                <!--Enviando valor do component pai para o filho-->
+                <app-tentativas [tentativas]="tentativas"></app-tentativas>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h6>{{ instrucao }}</h6>
+                <p>{{frases[rodada].fraseEng}}</p>
+                <!-- argumento input passa funcao e captura o value que é digitado -->
+                <div class="form-group">
+                    <textarea
+                    class="form-control"
+                    rows="3" style="resize: none"
+                    (input)="atualizarResposta($event)"
+                    [value]="resposta"
+                    ></textarea>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col d-flex flex-row-reverse">
+                <button 
+                type="button"
+                class="btn btn-primary"
+                (click)="compararResposta()"
+                >Verificar</button>
+            </div>
+        </div>
+
+    </div>
+</div>
