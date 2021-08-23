@@ -1,4 +1,4 @@
-# App1
+# Projeto Angular aprendendo inglês
 
 Projeto simples feito em Angular, um quizz com questões em inglês compara o que o usuário digita e verifica se está correto ou errado.
 
