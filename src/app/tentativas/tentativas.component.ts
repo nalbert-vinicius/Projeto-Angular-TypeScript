@@ -28,7 +28,7 @@ export class TentativasComponent implements OnInit, OnChanges {
 
   ngOnChanges(): void{
     if(this.tentativas!= this.coracoes.length){
-      let i =this.tentativas
+      let i = this.tentativas
       this.coracoes[i].cheio = false
     }  
   }
