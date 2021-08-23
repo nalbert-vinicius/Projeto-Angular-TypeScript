@@ -16,4 +16,4 @@ Porta padrão para localhost 4200
 
 ## Front
 
-![alt text](![Alt text](/relative/path/to/gif.giff?raw=true "Front"))
+<img src="https://github.com/nalbert-vinicius/Projeto-Angular-TypeScript/tree/main/img/gif.gif"/>  
