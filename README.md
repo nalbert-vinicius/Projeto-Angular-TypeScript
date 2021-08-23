@@ -6,14 +6,14 @@ Tecnologia
   - Angular
   - Bootstrap
 
-## Cinfigurar projeto
+## Configurar projeto
 
-1º git clone https://github.com/nalbert-vinicius/Projeto-Angular-TypeScript.git
-2º npm install na pasta do projeto
+1º git clone https://github.com/nalbert-vinicius/Projeto-Angular-TypeScript.git <br>
+2º npm install na pasta do projeto<br>
 3º npm start
 
 Porta padrão para localhost 4200 
 
-## Front
+## Aprendendo inglês com angular
 
-<img src="https://github.com/nalbert-vinicius/Projeto-Angular-TypeScript/tree/main/img/gif.gif"/>  
+![Aprendendo inglês com angular](https://github.com/nalbert-vinicius/Projeto-Angular-TypeScript/blob/main/img/gif.gif)
